@@ -1,0 +1,16 @@
+[INFO ] 2021-05-15 15:51:00.969 [main] EjemploLogs - Opening Website : https://demosite.titaniuminstitute.com.mx/wp-admin/admin.php?page=sch-dashboard
+[INFO ] 2021-05-15 15:51:01.142 [main] EjemploLogs - Check if you are in the demo site home page
+[INFO ] 2021-05-15 15:51:02.858 [main] EjemploLogs - Check if you are on register page
+[INFO ] 2021-05-15 15:51:03.003 [main] EjemploLogs - Back in the navigation history
+[INFO ] 2021-05-15 15:51:03.007 [main] EjemploLogs - Check if you are in the demo site home page
+[ERROR] 2021-05-15 15:51:03.060 [main] EjemploLogs - no such element: Unable to locate element: {"method":"link text","selector":"Lost your passwo"}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-beta-3', revision: '5d108f9a67'
+System info: host: 'DESKTOP-OMTF9A4', ip: '192.168.10.164', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [34b5d69ed4e621a37fd1844486cf8e99, findElement {using=link text, value=Lost your passwo}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56625}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56625/devtoo..., se:cdpVersion: 90.0.4430.212, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 34b5d69ed4e621a37fd1844486cf8e99
+[INFO ] 2021-05-15 15:51:03.122 [main] EjemploLogs - Back in the navigation history
+[INFO ] 2021-05-15 15:51:03.837 [main] EjemploLogs - Browser Closed!
