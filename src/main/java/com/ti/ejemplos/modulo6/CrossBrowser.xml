@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Cross_Browser_Suite" thread-count="4" parallel="tests">
+    <test name="ChromeTest">
+        <parameter name="browser" value="Chrome"/>
+        <classes>
+            <class name="com.ti.ejemplos.modulo6.CrossBrowser"/>
+        </classes>
+    </test>
+
+    <test name="FireFoxTest">
+        <parameter name="browser" value="Firefox"/>
+        <classes>
+            <class name="com.ti.ejemplos.modulo6.CrossBrowser"/>
+        </classes>
+    </test>
+
+    <test name="EdgeTest">
+        <parameter name="browser" value="Edge"/>
+        <classes>
+            <class name="com.ti.ejemplos.modulo6.CrossBrowser"/>
+        </classes>
+    </test>
+
+    <test name="BraveTest">
+        <parameter name="browser" value="Brave"/>
+        <classes>
+            <class name="com.ti.ejemplos.modulo6.CrossBrowser"/>
+        </classes>
+    </test>
+</suite>
